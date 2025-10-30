@@ -10,6 +10,9 @@ DATA_PATH = ROOT_DIR / "data"
 MOVIES_PATH = DATA_PATH / "movies.json"
 STOPWORDS_PATH = DATA_PATH / "stopwords.txt"
 
+BM25_K1 = 1.5
+BM25_B = 0.75
+
 
 @dataclass(frozen=True)
 class Movie:
